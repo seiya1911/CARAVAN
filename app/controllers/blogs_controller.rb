@@ -18,6 +18,7 @@ class BlogsController < ApplicationController
   end
 
   def edit
+    @blog=Blog_find(params[:id])
   end
 
   private
