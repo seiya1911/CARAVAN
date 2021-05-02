@@ -37,27 +37,27 @@
     <h2 class="blog-heading">Blog</h2>
     <section class="blog-box">
       <h3 class="blog-box-heading">
-        <!-- title部分 下で変更します -->
+
         <%=@blog.title%>
-        <!-- title部分 ここまで -->
+
       </h3>
       <div class="blog-box-content">
         <p class="category">
-          <!-- category部分 下で変更します -->
+
           <%=@blog.category%>
-          <!-- category部分 ここまで -->
+
         </p>
         <p class="blog-date">
-          <!-- created_at部分 下で変更します -->
-          <%=@blog.cerated_at%>
-          <!-- created_at部分 ここまで -->
+
+          <%=@blog.created_at%>
+
         </p>
       </div>
       <%= image_tag "img/forest.jpg", class:"single-image" %>
       <p class="single-text">
-        <!-- body部分 下で変更します -->
+
         <%=@blog.body%>
-        <!-- body部分 ここまで -->
+
       </p>
       <a href="#">編集</a>
       <a href="#">削除</a>
